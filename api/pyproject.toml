@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "api"
+version = "0.1.0"
+description = ""
+authors = ["plu7o <skankhunt4ort2wo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.110.0"
+load-dotenv = "^0.1.0"
+numpy = "^1.26.4"
+torchvision = "^0.17.1"
+torchaudio = "^2.2.1"
+uvicorn = "^0.29.0"
+torch = "^2.2.1"
+diffusers = "^0.27.2"
+transformers = "^4.39.1"
+accelerate = "^0.28.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
